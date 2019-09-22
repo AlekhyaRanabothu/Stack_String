@@ -1,0 +1,14 @@
+#makefile
+
+all:  main.o SStack.o
+	g++ main.o SStack.o -o SStack
+
+main.o: main.cpp SStack.h
+	g++ -c main.cpp  -o main.o
+
+SStack.o: SStack.cpp SStack.h
+	g++ -c SStack.cpp -o SStack.o
+
+clean: 
+	rm *.o
+
