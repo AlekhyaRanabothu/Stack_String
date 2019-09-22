@@ -1,3 +1,3 @@
 # Stack Implementation
 
-Implementation of stack using strings and arrays
+   - Implementation of stack using strings and arrays
